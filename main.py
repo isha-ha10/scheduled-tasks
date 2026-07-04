@@ -4,8 +4,8 @@ import datetime as dt
 import random
 import smtplib
 # 1. Update the birthdays.csv
-my_email=os.environ.get("my_email")
-my_password=os.environ.get("my_password")
+my_email=os.environ.get("MY_EMAIL")
+my_password=os.environ.get("MY_PASSWORD")
 # 2. Check if today matches a birthday in the birthdays.csv
 now=dt.datetime.now()
 today=now.date()
